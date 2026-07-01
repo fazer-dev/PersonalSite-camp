@@ -22,3 +22,42 @@ img {
     width: 100%;
     height: auto;
 }
+
+#paragraph {
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+    font-size: 20px;
+    color:#7d5330;
+    text-shadow: 1px 1px 1px #7e593a;
+}
+
+nav {
+    width: 100%;
+    background-color: #444;
+    padding: 10px 0;
+    text-align: center;
+    
+}
+li {
+    display: inline-block;
+    padding-right: 15%;
+}
+
+.navbar{
+    color: white;
+    text-decoration: none;
+    background-color: #7d5330;
+    padding: 5px 10px;
+    border-radius: 99px;
+}
+
+#bread{
+    width:50px;
+}
+
+#link{
+    color: white;
+    background-color: #7d5330;
+    padding: 5px 10px;
+}
