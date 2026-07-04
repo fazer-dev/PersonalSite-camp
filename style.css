@@ -1,3 +1,9 @@
+:root {
+    --Ptext-color: white;
+}
+
+
+
 body {
     margin: 0;
     background-color: #313131;
@@ -45,7 +51,7 @@ li {
 }
 
 .navbar{
-    color: white;
+    color: var(--Ptext-color);
     text-decoration: none;
     background-color: #7d5330;
     padding: 5px 10px;
@@ -57,7 +63,16 @@ li {
 }
 
 #link{
-    color: white;
+    color: var(--Ptext-color);
     background-color: #7d5330;
     padding: 5px 10px;
+}
+
+
+#Hi{
+    background: #F0A626;
+    background: linear-gradient(to right, #fda203 0%, #f5ff70 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
